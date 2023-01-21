@@ -1,0 +1,14 @@
+{
+  "name": "wahaj-server-folder",
+  "version": "1.0.0",
+  "description": "This is a practice server project",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "run server"
+  },
+  "author": "Wahaj Ul Haq",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
