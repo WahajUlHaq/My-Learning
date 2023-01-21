@@ -1,0 +1,6 @@
+/home/wahajulhaq/Desktop/Algorithms-Practice/C# Algorithms Practice/Solutions/Solutions/bin/Debug/Solutions.exe
+/home/wahajulhaq/Desktop/Algorithms-Practice/C# Algorithms Practice/Solutions/Solutions/bin/Debug/Solutions.pdb
+/home/wahajulhaq/Desktop/Algorithms-Practice/C# Algorithms Practice/Solutions/Solutions/obj/Debug/Solutions.csproj.AssemblyReference.cache
+/home/wahajulhaq/Desktop/Algorithms-Practice/C# Algorithms Practice/Solutions/Solutions/obj/Debug/Solutions.csproj.CoreCompileInputs.cache
+/home/wahajulhaq/Desktop/Algorithms-Practice/C# Algorithms Practice/Solutions/Solutions/obj/Debug/Solutions.exe
+/home/wahajulhaq/Desktop/Algorithms-Practice/C# Algorithms Practice/Solutions/Solutions/obj/Debug/Solutions.pdb
