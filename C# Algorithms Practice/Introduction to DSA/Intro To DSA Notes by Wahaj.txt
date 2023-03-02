@@ -1,0 +1,43 @@
+What is DSA:
+
+DSA is Data Structure and Algorithm. The way to manage our application performace. DS and A are both seperate things which are as follow:
+
+
+Data Structure:
+DS is Data structure it means than the way how 
+the data is stored  in our RAM - The efficient way to store data in our RAM / Efficient usage of RAM. 
+
+Algorithms:
+It is a sequence of step to solve a given problem. How to execute any problem or solve any problem in an efficient way. There should be millions of method to solve
+one specific problem but we have to choose the best and efficient one in which DSA helps.
+
+
+Some terms to know about: 
+
+Databse: Database is a simple HDD or SSD present in any system or server. It store a data to perform CRUD operation. It is used for Faster Reterival.
+
+Dataware House: It is also known as Management of Huge Legacy Data. Which means the old data which is not wanted or the data which is not required to be kept 
+inside the system. It is a special type of system which is sperated from main system.
+
+Big Data: The data which is soo big which can not be handeled by normal system or normal DSA. It requires a special Alogs and Data Structure.
+
+Memory Architecture:
+
+It consist of following in order of bottom to top:
+
+Heap : The dynamic memory which should be provided on demand and cleared once the work is done.
+Stack : The LIFO technique in which 
+Static and Global Variable
+Code Segment 
+
+
+
+
+
+
+
+
+
+
+
+	
