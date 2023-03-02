@@ -1,0 +1,30 @@
+Assume an Array 
+[10, 20, 30, 40, 50, 60, 70, 80]
+
+n = 8;
+
+Case 1=> Find 10 and tell me how much time it will consume.
+		It will not take time cuz it is on the top of array. Means that on the first iteration of loop we will get the element.
+
+		This case is also called BEST CASE. The time complexity will be O(1) in this case.
+
+Case 2=> Find 40 and tell me how much time it will consume.
+		It will take about traversing half array cuz the 40 is present in middle of array so we have to loop an array. 
+		
+		This case is also called Average Case. The time complexity will be 0(n) in this case.
+		n/2 => half array drop constants => O(n)
+
+Case 3 => Find 80 and tell me how much time it will consume.
+	It will take about traversing whole array. 80 is present at last so we have to loop an whole array.
+
+	This case is also called Worst Case. The time complexity will be 0(n) in this case.
+	n = traversing whole array.
+
+Case 4 => Find 80 and tell me how much time it will consume.
+	It will take about traversing whole array. 180 is not present but we have loop an whole array to confirm it.
+
+	This case is also called Worst Case. The time complexity will be 0() in this case.
+	n = traversing whole array.
+
+
+The time complexity to find will be Worst Case Complexity. Or We have to define Best and Average seperatly.

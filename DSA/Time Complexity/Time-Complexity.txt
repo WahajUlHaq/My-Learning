@@ -20,7 +20,7 @@ sum = 0;			i = 0
 sum = 1			i = 1
 sum = i + old i val  	i = 2			------------ function 2
 	2 + 1 = 3
-
+//////////////////////////////////////////////////////////////////////
 
 Now assume each step take 1 second. So 3 second will be consumed here cuz 3 iteration occurs here.
 So to conclude if we have n numbers so n second will be consumed which is so much time.
@@ -125,7 +125,7 @@ P1, O(1) Graph
 |----------	
 
 Constant Graph		
-	
+//////////////////////////
 
 P2, O(n) Graph
 
@@ -136,7 +136,7 @@ P2, O(n) Graph
 |----------
 
 Linear Graph
-	
+/////////////////////////	
 
 P3, O(n^2) Graph
 
@@ -149,8 +149,132 @@ P3, O(n^2) Graph
 |----------
 
 Quardatic Graph
+///////////////////////////
+
+Note while selecting the best complexity the test case should be for the largest value not for the least value. Cuz the program requires more traffic.
+
+Questions: 
+
+for (int i = 0; i < n; i++) 
+{
+	print("WAHAJ")
+}
+
+1. Find how much time the loop will run.
+
+This will run N n time means the time complexity will  be O(n)
 
 
+2. If loop iteration take 5 sec so how much second n time will take
+
+5 N times
+
+3. Pattern of Graph
+Linear Graph
+
+|     . -    +
+|    . -   +
+|   . -  +
+|  . - +
+| .-+ They all are linear graph constant not depends upon Big O. We will always igone Constants and write higest power.
+|_________________
+
+
+
+Questions: 
+
+for (int i = 0; i < n; i = i*2) 
+{
+	print("WAHAJ")
+}
+
+1. Find how much time the loop will run.
+
+This will run infinite time 
+
+i 	n
+0	rendered
+0	rendered
+0 	rednered
+...	....
+
+
+Questions: 
+
+for (int i = 1; i < n; i = i*2) 
+{
+	print("WAHAJ")
+}
+
+1. Find how much time the loop will run.
+
+This will run 
+
+i 	n
+1	ok	2^0
+2	ok	2^1
+4	ok	2^2
+8	ok	2^3
+16	ok	2^4
+
+... n	.... 2^k
+
+2^k = n
+find k, 
+
+so, take log 
+
+log(2^k) = log(n)
+K*(log2) = log(n)
+K = log(n)			log(a)
+    ------			-----		log n / 2
+    log(2)			log(b)
+
+K = log = n/2
+ so time complexity will be O(n)
+remove constants
+
+
+
+Question
+
+for (int i = n; i > 0; i=i/2) 
+{
+	print ("WAHAJ")
+}
+
+
+1- How much time will the loop run?
+
+	suppose n = 10
+	i	i > 0; 
+	10 	t	
+	5	t	
+	2	t	
+	1	t
+	0	f
+
+	n	n/2	n/4	n/8  n/16 ... 1	eq1
+	
+	0	1	2	3	4	k
+	
+	n/2^0  n/2^1  n/2^2  n/2^3  n/2^4  n/2^k	eq2
+
+	n/2^k 
+	finding K,
+
+	1 = n/2^k
+	2^k = n
+	log (2^k) = log (n)
+	K(log (2)) = log (n)
+	K = log(n)/log (2)
+	K = log n/2
+	O(n) ---- Answer
 
 	
+
+
+
+
+
 		
