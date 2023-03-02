@@ -1,0 +1,156 @@
+Lets start by finding how to find the sum of N natural number.
+
+1+2+3 .... + n
+
+in maths => n * (n+1) 
+		---------				------------- function 1 
+		2
+
+in programming => 
+
+int sum = 0;
+
+for (int i = 0; i <= n; i++)
+	{
+		sum += i;
+	}
+
+so, 
+sum = 0;			i = 0
+sum = 1			i = 1
+sum = i + old i val  	i = 2			------------ function 2
+	2 + 1 = 3
+
+
+Now assume each step take 1 second. So 3 second will be consumed here cuz 3 iteration occurs here.
+So to conclude if we have n numbers so n second will be consumed which is so much time.
+
+NOW,
+Assume that function one runs in 2 second 
+function second runs in 4 second 
+	 
+So,
+	Function one just take 2 second cuz it was a formula not a loop so in this case it will just run once not depend upon some n 
+	Function 2 is dependent upon n numbers of iteration means n time loop will run n second it will consume 
+	
+Now assume n is 4, supposing program one run in 2 second and program 2 run in 4 second.
+
+So,
+	 What will be the output:
+		Program one 2 second cuz it is not dependent over any one it is just formula.
+		Program 2 = 8 second cuz 1 iteration = 1 second = 8 iteration = 8 second === dependent over n (2n = 2time).
+
+Now time complexity will be:
+	Program 1 => Not dependent over n or something in each case it will consume same amount of time so time complexity will be (O(1)) 
+	Program 2 => Linearly dependent upon number of input (number of n) - totaly dependent upon n so time complexity will be (O(n))
+
+
+Conclution:
+	Both are same program means both purpose and output is to find the sum of n number so in this case what which is most efficient function, 
+	which program is the faster one and which one is the slower one.
+
+	To find it out,
+		We will match the complexity
+			O(n) - func 2 > O(1) - func 1 => Yes, Func 2 will consume more time than Func 1
+			O(1) - func 1 > O(n) - func 2 => No, Func 1 will consume less time than Func 2
+
+		So function one will be faster than function 2.
+
+This is known as Space and Time Complexity Analysis.
+
+	
+Example ->
+	Calculate sum of N natural numbers
+	
+	int sum = 0;
+
+	for (int i = 1; i<=n; i++)
+	{
+		for (int j = 1; j <= i; j++)
+		{	
+			sum ++;
+		}
+	}
+
+i	j iteration		sum
+1	1			2
+2	2			3
+3	3			4
+/////////////////////////
+
+How much time inner loop execute? and how?
+	1+2+3+4 + ... + n
+
+	means Summison of j (inner loop)
+	means till n it will run 
+	it can be called sum of all n natural number.
+	
+	n*(n+1)		n^2 + n	
+	------	= 	-------	
+	2			2
+	
+	put value in formula
+	
+	n 	time
+	1	1
+	2	3
+	3	6
+
+so this means this is more time consuming than other algos.
+
+so time complexity will be 
+	the higest power of n in the formula = n^2 + n
+							-----------
+								2
+
+	so, in this case O(n^2) will be time complexity.
+
+
+Comparision Chart:
+
+P1, O(1) 			P2, O(n)  			P3 O(n^2)
+
+1				2				1
+2				2				3
+3				2				6
+4				2				10
+5				2				15
+
+P1, O(1) Graph
+
+|     
+|   
+| ........
+|
+|----------	
+
+Constant Graph		
+	
+
+P2, O(n) Graph
+
+|     .
+|   .
+| . 
+|.	
+|----------
+
+Linear Graph
+	
+
+P3, O(n^2) Graph
+
+|          .
+|	  .
+|     
+|   .
+|     
+|.	
+|----------
+
+Quardatic Graph
+
+
+
+	
+		
