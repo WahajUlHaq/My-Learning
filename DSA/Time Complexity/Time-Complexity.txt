@@ -20,7 +20,7 @@ sum = 0;			i = 0
 sum = 1			i = 1
 sum = i + old i val  	i = 2			------------ function 2
 	2 + 1 = 3
-//////////////////////////////////////////////////////////////////////
+
 
 Now assume each step take 1 second. So 3 second will be consumed here cuz 3 iteration occurs here.
 So to conclude if we have n numbers so n second will be consumed which is so much time.
@@ -275,6 +275,28 @@ for (int i = n; i > 0; i=i/2)
 
 
 
+Question
+	for (int i = 0; i<n; i++)
+	{
+		for (int j = 0; j<i; j++)
+		{
+			print ("Wahaj")
+		}
+	}
+
+	assume n = 4
+	
+	i	j		i<j
+
+	0	0		f	
+	1	0,1		t,f		
+	2	0,1,2		t,t,f		
+	3	0,1,2,3	t,t,t,f 
+				
+	n-1			n-1 
 
 
-		
+	
+
+
+	
