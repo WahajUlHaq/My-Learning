@@ -1,0 +1,12 @@
+To clone 
+git clone https://SyedMuhammadWahajUlHaq@bitbucket.org/teamppl/pplmobileapp.git
+
+to checkout 
+git checkout UAT
+
+find branches
+git branch
+git branch -a (display all)
+
+make new branch 
+git checkout -b rn-new-version
